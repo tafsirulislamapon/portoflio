@@ -83,9 +83,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-/* ========================================
-   ACTIVE NAVIGATION HIGHLIGHT ON SCROLL
-   ======================================== */
+/* ACTIVE NAVIGATION HIGHLIGHT ON SCROLL*/
 
 window.addEventListener('scroll', () => {
     let current = '';
