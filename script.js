@@ -46,7 +46,7 @@ contactForm.addEventListener('submit', (e) => {
 document.querySelectorAll('.view-doc-btn').forEach(button => {
     button.addEventListener('click', (e) => {
        
-        const secretPassword = "123456"; 
+        const secretPassword = "abc123"; 
         
         const driveLink = "https://drive.google.com/file/d/19nt9XJIG6wRbClHex0erzX5zPwg7WRku/view?usp=sharing";
 
