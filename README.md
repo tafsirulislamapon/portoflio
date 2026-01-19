@@ -16,21 +16,3 @@ Portfolio website/
 │   └── GTA6.jpg
 └── README.md
 ```
-
-## Modularization Options
-
-### For CSS (Easy - Can Implement Now)
-
-You can split CSS into multiple files for better organization:
-
-#### Option 1: Create Separate CSS Files
-
-```
-styles/
-├── base.css          # Colors, fonts, reset
-├── navbar.css        # Navigation styles
-├── hero.css          # Landing page styles
-├── about.css         # About section styles
-├── portfolio.css     # Portfolio section styles
-└── contact.css       # Contact section styles
-```
