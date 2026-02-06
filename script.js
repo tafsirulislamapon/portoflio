@@ -24,7 +24,6 @@ contactForm.addEventListener('submit', (e) => {
    
     e.preventDefault();
 
-    // Get form values
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
@@ -33,10 +32,8 @@ contactForm.addEventListener('submit', (e) => {
 
     const whatsappNumber = '8801858656473';
 
-    // Open WhatsApp in new tab with pre-filled message
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
 
-    // Clear the form after submission
     contactForm.reset();
 });
 
